@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Páginas públicas principales
+# Sitemap (agregar cuando el dominio esté activo)
+# Sitemap: https://www.intis.pe/sitemap.xml

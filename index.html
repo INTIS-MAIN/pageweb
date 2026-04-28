@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO primario -->
+    <title>INTIS | Soluciones Tecnológicas Empresariales — Cajamarca, Perú</title>
+    <meta name="description" content="Desarrollo de software a medida, aplicaciones móviles, sistemas web, ERP y soluciones digitales para empresas e instituciones en Cajamarca, Perú.">
+    <meta name="keywords" content="desarrollo de software, apps móviles, ERP, sistemas web, transformación digital, Cajamarca, Perú, INTIS, INIS, Flutter, Angular, .NET">
+    <meta name="author" content="INTIS">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.intis.pe">
+
+    <!-- Open Graph -->
+    <meta property="og:type"        content="website">
+    <meta property="og:url"         content="https://www.intis.pe">
+    <meta property="og:title"       content="INTIS | Soluciones Tecnológicas Empresariales">
+    <meta property="og:description" content="Desarrollamos sistemas web, aplicaciones móviles, plataformas ERP y soluciones digitales a medida para optimizar los procesos de su empresa.">
+    <meta property="og:image"       content="https://www.intis.pe/assets/og-image.png">
+    <meta property="og:locale"      content="es_PE">
+    <meta property="og:site_name"   content="INTIS">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:title"       content="INTIS | Soluciones Tecnológicas Empresariales">
+    <meta name="twitter:description" content="Desarrollamos sistemas web, apps móviles y plataformas ERP para empresas que quieren crecer.">
+    <meta name="twitter:image"       content="https://www.intis.pe/assets/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/logo.png">
+    <link rel="apple-touch-icon"     href="assets/logo.png">
+
+    <!-- Preconnect fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER / NAVEGACIÓN
+     ============================================================ -->
+<header class="header" id="header">
+    <nav class="nav container" role="navigation" aria-label="Navegación principal">
+        <a href="index.html" class="nav__logo" aria-label="INTIS — Inicio">
+            <img src="assets/logo.png" alt="INTIS Logo" class="nav__logo-img">
+        </a>
+
+        <ul class="nav__menu" id="nav-menu" role="list">
+            <li class="nav__item"><a href="#inicio"      class="nav__link active">Inicio</a></li>
+            <li class="nav__item"><a href="#nosotros"    class="nav__link">Nosotros</a></li>
+            <li class="nav__item"><a href="#servicios"   class="nav__link">Servicios</a></li>
+            <li class="nav__item"><a href="#soluciones"  class="nav__link">Soluciones</a></li>
+            <li class="nav__item"><a href="#tecnologias" class="nav__link">Tecnologías</a></li>
+            <li class="nav__item"><a href="#contacto"    class="nav__link">Contacto</a></li>
+        </ul>
+
+        <div class="nav__actions">
+            <a href="#contacto" class="btn btn--primary btn--sm">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i> Solicitar cotización
+            </a>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<main id="main-content">
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="inicio" aria-label="Presentación principal">
+    <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__glow"></div>
+    </div>
+
+    <div class="container hero__content">
+        <!-- Texto -->
+        <div class="hero__text">
+            <span class="hero__badge">
+                <i class="fas fa-circle-nodes" aria-hidden="true"></i>
+                Innovación Tecnológica
+            </span>
+            <h1 class="hero__title">
+                Soluciones tecnológicas para empresas que quieren
+                <span class="highlight">crecer</span>
+            </h1>
+            <p class="hero__subtitle">
+                Desarrollamos sistemas web, aplicaciones móviles, plataformas ERP y soluciones digitales a medida para optimizar procesos, mejorar la gestión y facilitar la toma de decisiones.
+            </p>
+            <div class="hero__btns">
+                <a href="#contacto" class="btn btn--primary btn--lg">
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i> Solicitar cotización
+                </a>
+                <a href="#servicios" class="btn btn--outline btn--lg">
+                    <i class="fas fa-arrow-down" aria-hidden="true"></i> Ver servicios
+                </a>
+            </div>
+            <div class="hero__stats" aria-label="Estadísticas de la empresa">
+                <div class="hero__stat">
+                    <span class="hero__stat-number">+50</span>
+                    <span class="hero__stat-label">Proyectos</span>
+                </div>
+                <div class="hero__stat-divider" aria-hidden="true"></div>
+                <div class="hero__stat">
+                    <span class="hero__stat-number">+30</span>
+                    <span class="hero__stat-label">Clientes</span>
+                </div>
+                <div class="hero__stat-divider" aria-hidden="true"></div>
+                <div class="hero__stat">
+                    <span class="hero__stat-number">5+</span>
+                    <span class="hero__stat-label">Años</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visual decorativo (desktop) -->
+        <div class="hero__visual" aria-hidden="true">
+            <div class="hero__card-float hero__card-float--1">
+                <i class="fas fa-mobile-screen-button"></i>
+                <span>App Móvil</span>
+            </div>
+            <div class="hero__card-float hero__card-float--2">
+                <i class="fas fa-database"></i>
+                <span>ERP</span>
+            </div>
+            <div class="hero__card-float hero__card-float--3">
+                <i class="fas fa-code"></i>
+                <span>Web</span>
+            </div>
+            <div class="hero__logo-center">
+                <img src="assets/logo.png" alt="INTIS" class="hero__logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="hero__wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f8faff"/>
+        </svg>
+    </div>
+</section>
+
+<!-- ============================================================
+     NOSOTROS
+     ============================================================ -->
+<section class="section" id="nosotros">
+    <div class="container">
+        <header class="section__header">
+            <span class="section__badge">Quiénes somos</span>
+            <h2 class="section__title">Sobre <span class="highlight">INTIS</span></h2>
+            <p class="section__subtitle">
+                INTIS es una empresa especializada en el desarrollo de soluciones tecnológicas empresariales. Diseñamos, desarrollamos e implementamos sistemas web, aplicaciones móviles, plataformas ERP e integraciones digitales orientadas a mejorar la eficiencia, seguridad y control de los procesos de nuestros clientes.
+            </p>
+        </header>
+
+        <div class="about__grid">
+            <div class="about__card reveal">
+                <div class="about__icon">
+                    <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                </div>
+                <h3>Innovación tecnológica</h3>
+                <p>Adoptamos las últimas tendencias y herramientas tecnológicas para ofrecer soluciones modernas y competitivas.</p>
+            </div>
+            <div class="about__card reveal">
+                <div class="about__icon">
+                    <i class="fas fa-code-branch" aria-hidden="true"></i>
+                </div>
+                <h3>Desarrollo a medida</h3>
+                <p>Cada proyecto es único. Desarrollamos soluciones personalizadas adaptadas exactamente a las necesidades de su empresa.</p>
+            </div>
+            <div class="about__card reveal">
+                <div class="about__icon">
+                    <i class="fas fa-shield-halved" aria-hidden="true"></i>
+                </div>
+                <h3>Seguridad y escalabilidad</h3>
+                <p>Construimos sistemas seguros, robustos y escalables que crecen con su empresa sin comprometer el rendimiento.</p>
+            </div>
+            <div class="about__card reveal">
+                <div class="about__icon">
+                    <i class="fas fa-headset" aria-hidden="true"></i>
+                </div>
+                <h3>Acompañamiento técnico</h3>
+                <p>No solo entregamos un producto. Brindamos soporte continuo, capacitación y mantenimiento post-implementación.</p>
+            </div>
+        </div>
+
+        <div class="about__mission">
+            <div class="about__mission-item reveal">
+                <div class="about__mission-icon">
+                    <i class="fas fa-bullseye" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <h3>Misión</h3>
+                    <p>Transformar digitalmente a empresas e instituciones mediante soluciones tecnológicas de alto impacto, accesibles y adaptadas a la realidad peruana.</p>
+                </div>
+            </div>
+            <div class="about__mission-item reveal">
+                <div class="about__mission-icon">
+                    <i class="fas fa-binoculars" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <h3>Visión</h3>
+                    <p>Ser la empresa referente en innovación tecnológica del norte del Perú, conectando empresas e instituciones con el futuro digital.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     SERVICIOS
+     ============================================================ -->
+<section class="section section--alt" id="servicios">
+    <div class="container">
+        <header class="section__header">
+            <span class="section__badge">Lo que hacemos</span>
+            <h2 class="section__title">Nuestros <span class="highlight">Servicios</span></h2>
+            <p class="section__subtitle">Ofrecemos un portafolio completo de servicios tecnológicos para digitalizar, optimizar y escalar su negocio.</p>
+        </header>
+
+        <div class="services__grid">
+            <div class="service__card reveal">
+                <div class="service__icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+                <h3>Desarrollo de software a medida</h3>
+                <p>Creamos soluciones de software personalizadas, diseñadas para resolver los desafíos específicos de su organización con tecnología de vanguardia.</p>
+            </div>
+            <div class="service__card reveal">
+                <div class="service__icon"><i class="fas fa-mobile-screen-button" aria-hidden="true"></i></div>
+                <h3>Aplicaciones móviles Android / iOS</h3>
+                <p>Desarrollamos apps nativas y multiplataforma con Flutter para Android e iOS, con experiencias de usuario fluidas y rendimiento excepcional.</p>
+            </div>
+            <div class="service__card reveal">
+                <div class="service__icon"><i class="fas fa-globe" aria-hidden="true"></i></div>
+                <h3>Sistemas web empresariales</h3>
+                <p>Plataformas web robustas, seguras y escalables con interfaces modernas y acceso desde cualquier dispositivo, en cualquier momento.</p>
+            </div>
+            <div class="service__card reveal">
+                <div class="service__icon"><i class="fas fa-cogs" aria-hidden="true"></i></div>
+                <h3>Plataformas ERP</h3>
+                <p>Implementamos y desarrollamos sistemas ERP modulares para gestionar contabilidad, inventario, RRHH, ventas, compras y logística.</p>
+            </div>
+            <div class="service__card reveal">
+                <div class="service__icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div>
+                <h3>Soluciones para instituciones educativas</h3>
+                <p>Sistemas de gestión académica, portales para estudiantes, docentes y apoderados, y plataformas de comunicación educativa.</p>
+            </div>
+            <div class="service__card reveal">
+                <div class="service__icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
+                <h3>Automatización de procesos</h3>
+                <p>Eliminamos tareas manuales repetitivas automatizando flujos de trabajo, notificaciones e integraciones entre sus sistemas.</p>
+            </div>
+            <div class="service__card reveal">
+                <div class="service__icon"><i class="fas fa-chart-bar" aria-hidden="true"></i></div>
+                <h3>Reportes, dashboards y analítica</h3>
+                <p>Construimos paneles de control interactivos y reportes en tiempo real para apoyar la toma de decisiones estratégicas.</p>
+            </div>
+            <div class="service__card reveal">
+                <div class="service__icon"><i class="fas fa-server" aria-hidden="true"></i></div>
+                <h3>Infraestructura y despliegue</h3>
+                <p>Configuración de servidores VPS, Linux, Docker, Nginx, Cloudflare, certificados SSL y soporte técnico continuo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     SOLUCIONES
+     ============================================================ -->
+<section class="section" id="soluciones">
+    <div class="container">
+        <header class="section__header">
+            <span class="section__badge">Productos y plataformas</span>
+            <h2 class="section__title">Nuestras <span class="highlight">Soluciones</span></h2>
+            <p class="section__subtitle">Soluciones listas para implementar y personalizar en su organización, con experiencia comprobada en distintos sectores.</p>
+        </header>
+
+        <div class="solutions__grid">
+            <div class="solution__item reveal">
+                <div class="solution__icon"><i class="fas fa-school" aria-hidden="true"></i></div>
+                <div class="solution__content">
+                    <h3>Sistema de gestión educativa</h3>
+                    <p>Plataforma integral para instituciones educativas: matrículas, notas, asistencia, comunicados y reportes académicos.</p>
+                    <ul class="solution__features">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Gestión de matrículas y pensiones</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Registro de notas y asistencia</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Portal para docentes y apoderados</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="solution__item reveal">
+                <div class="solution__icon"><i class="fas fa-mobile-screen" aria-hidden="true"></i></div>
+                <div class="solution__content">
+                    <h3>App móvil para apoderados y clientes</h3>
+                    <p>Aplicaciones móviles que mantienen conectados a estudiantes, apoderados y clientes con la organización en tiempo real.</p>
+                    <ul class="solution__features">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Notificaciones push en tiempo real</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Acceso a información personalizada</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Comunicación directa y segura</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="solution__item reveal">
+                <div class="solution__icon"><i class="fas fa-building-columns" aria-hidden="true"></i></div>
+                <div class="solution__content">
+                    <h3>ERP empresarial modular</h3>
+                    <p>Sistema ERP modular y escalable que integra contabilidad, inventario, ventas, compras, RRHH y logística en una sola plataforma.</p>
+                    <ul class="solution__features">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Módulos configurables por empresa</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Reportes y dashboards integrados</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Multi-usuario con roles y permisos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="solution__item reveal">
+                <div class="solution__icon"><i class="fas fa-clipboard-list" aria-hidden="true"></i></div>
+                <div class="solution__content">
+                    <h3>Sistema de gestión operativa</h3>
+                    <p>Control de operaciones, seguimiento de tareas, gestión de recursos y supervisión de procesos empresariales críticos.</p>
+                    <ul class="solution__features">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Seguimiento de tareas y proyectos</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Control de recursos y activos</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> KPIs y métricas en tiempo real</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="solution__item reveal">
+                <div class="solution__icon"><i class="fas fa-file-signature" aria-hidden="true"></i></div>
+                <div class="solution__content">
+                    <h3>Gestión documentaria</h3>
+                    <p>Sistema de administración de documentos digitales con control de versiones, flujos de aprobación y trazabilidad completa.</p>
+                    <ul class="solution__features">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Almacenamiento y organización digital</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Flujos de aprobación configurables</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Historial y trazabilidad completa</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="solution__item reveal">
+                <div class="solution__icon"><i class="fas fa-plug" aria-hidden="true"></i></div>
+                <div class="solution__content">
+                    <h3>Integración de sistemas</h3>
+                    <p>Conectamos sus sistemas existentes mediante APIs y servicios de integración para centralizar la información de su organización.</p>
+                    <ul class="solution__features">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> APIs REST y servicios web</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Migración e integración de datos</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Sincronización entre plataformas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     TECNOLOGÍAS
+     ============================================================ -->
+<section class="section section--alt" id="tecnologias">
+    <div class="container">
+        <header class="section__header">
+            <span class="section__badge">Stack tecnológico</span>
+            <h2 class="section__title">Nuestras <span class="highlight">Tecnologías</span></h2>
+            <p class="section__subtitle">Trabajamos con tecnologías modernas, robustas y ampliamente adoptadas en la industria para garantizar soluciones de calidad.</p>
+        </header>
+
+        <div class="tech__groups">
+            <div class="tech__group reveal">
+                <h3 class="tech__group-title"><i class="fas fa-server" aria-hidden="true"></i> Backend</h3>
+                <div class="tech__tags">
+                    <span class="tech__tag">.NET / ASP.NET Core</span>
+                    <span class="tech__tag">Java</span>
+                    <span class="tech__tag">PHP</span>
+                    <span class="tech__tag">APIs REST</span>
+                    <span class="tech__tag">Node.js</span>
+                </div>
+            </div>
+            <div class="tech__group reveal">
+                <h3 class="tech__group-title"><i class="fas fa-laptop-code" aria-hidden="true"></i> Frontend</h3>
+                <div class="tech__tags">
+                    <span class="tech__tag">Angular</span>
+                    <span class="tech__tag">TypeScript</span>
+                    <span class="tech__tag">HTML5</span>
+                    <span class="tech__tag">CSS3</span>
+                    <span class="tech__tag">JavaScript</span>
+                </div>
+            </div>
+            <div class="tech__group reveal">
+                <h3 class="tech__group-title"><i class="fas fa-mobile-screen-button" aria-hidden="true"></i> Mobile</h3>
+                <div class="tech__tags">
+                    <span class="tech__tag">Flutter</span>
+                    <span class="tech__tag">Android</span>
+                    <span class="tech__tag">iOS</span>
+                    <span class="tech__tag">Dart</span>
+                </div>
+            </div>
+            <div class="tech__group reveal">
+                <h3 class="tech__group-title"><i class="fas fa-database" aria-hidden="true"></i> Base de datos</h3>
+                <div class="tech__tags">
+                    <span class="tech__tag">PostgreSQL</span>
+                    <span class="tech__tag">SQL Server</span>
+                    <span class="tech__tag">MySQL</span>
+                    <span class="tech__tag">SQLite</span>
+                </div>
+            </div>
+            <div class="tech__group reveal">
+                <h3 class="tech__group-title"><i class="fas fa-cloud" aria-hidden="true"></i> Infraestructura</h3>
+                <div class="tech__tags">
+                    <span class="tech__tag">Linux</span>
+                    <span class="tech__tag">Docker</span>
+                    <span class="tech__tag">Nginx</span>
+                    <span class="tech__tag">Cloudflare</span>
+                    <span class="tech__tag">VPS</span>
+                    <span class="tech__tag">SSL / TLS</span>
+                </div>
+            </div>
+            <div class="tech__group reveal">
+                <h3 class="tech__group-title"><i class="fas fa-diagram-project" aria-hidden="true"></i> Herramientas</h3>
+                <div class="tech__tags">
+                    <span class="tech__tag">Git / GitHub</span>
+                    <span class="tech__tag">Postman</span>
+                    <span class="tech__tag">Figma</span>
+                    <span class="tech__tag">Visual Studio</span>
+                    <span class="tech__tag">VS Code</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     PROCESO DE TRABAJO
+     ============================================================ -->
+<section class="section" id="proceso">
+    <div class="container">
+        <header class="section__header">
+            <span class="section__badge">Cómo trabajamos</span>
+            <h2 class="section__title">Proceso de <span class="highlight">trabajo</span></h2>
+            <p class="section__subtitle">Seguimos una metodología clara y ordenada para garantizar entregas de calidad y cumplir los objetivos de cada proyecto.</p>
+        </header>
+
+        <div class="process__steps">
+            <div class="process__step reveal">
+                <div class="process__number">01</div>
+                <i class="fas fa-magnifying-glass process__icon" aria-hidden="true"></i>
+                <h3>Análisis</h3>
+                <p>Entendemos su negocio, sus necesidades y los objetivos del proyecto para definir el alcance y los requerimientos.</p>
+            </div>
+            <div class="process__step reveal">
+                <div class="process__number">02</div>
+                <i class="fas fa-file-lines process__icon" aria-hidden="true"></i>
+                <h3>Propuesta</h3>
+                <p>Elaboramos una propuesta técnica y económica detallada con cronograma, tecnologías y entregables definidos.</p>
+            </div>
+            <div class="process__step reveal">
+                <div class="process__number">03</div>
+                <i class="fas fa-pen-ruler process__icon" aria-hidden="true"></i>
+                <h3>Diseño</h3>
+                <p>Diseñamos la arquitectura del sistema, interfaces de usuario y la experiencia de uso antes de comenzar el desarrollo.</p>
+            </div>
+            <div class="process__step reveal">
+                <div class="process__number">04</div>
+                <i class="fas fa-code process__icon" aria-hidden="true"></i>
+                <h3>Desarrollo</h3>
+                <p>Construimos el sistema con metodología ágil, entregas incrementales y comunicación constante con el cliente.</p>
+            </div>
+            <div class="process__step reveal">
+                <div class="process__number">05</div>
+                <i class="fas fa-vial process__icon" aria-hidden="true"></i>
+                <h3>Pruebas</h3>
+                <p>Realizamos pruebas exhaustivas de funcionalidad, seguridad, rendimiento y usabilidad antes de la entrega.</p>
+            </div>
+            <div class="process__step reveal">
+                <div class="process__number">06</div>
+                <i class="fas fa-rocket process__icon" aria-hidden="true"></i>
+                <h3>Implementación</h3>
+                <p>Desplegamos el sistema en producción, capacitamos al equipo del cliente y aseguramos una transición exitosa.</p>
+            </div>
+            <div class="process__step reveal">
+                <div class="process__number">07</div>
+                <i class="fas fa-life-ring process__icon" aria-hidden="true"></i>
+                <h3>Soporte</h3>
+                <p>Brindamos soporte técnico continuo, actualizaciones, mantenimiento y mejoras evolutivas según las necesidades.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     CONTACTO
+     ============================================================ -->
+<section class="section section--alt" id="contacto">
+    <div class="container">
+        <header class="section__header">
+            <span class="section__badge">Hablemos</span>
+            <h2 class="section__title">Contáctenos</h2>
+            <p class="section__subtitle">¿Tiene un proyecto en mente? Cuéntenos sobre él y le prepararemos una propuesta personalizada sin compromiso.</p>
+        </header>
+
+        <div class="contact__wrapper">
+            <!-- Info -->
+            <div class="contact__info">
+                <h3>Información de contacto</h3>
+                <div class="contact__info-items">
+                    <div class="contact__info-item">
+                        <div class="contact__info-icon">
+                            <i class="fas fa-location-dot" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <strong>Ubicación</strong>
+                            <span>Cajamarca, Perú</span>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <div class="contact__info-icon">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <strong>Correo electrónico</strong>
+                            <a href="mailto:contacto@intis.pe" data-company-email>contacto@intis.pe</a>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <div class="contact__info-icon">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <a href="https://wa.me/51999999999" target="_blank" rel="noopener noreferrer" data-company-whatsapp>+51 999 999 999</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/51999999999"
+                   class="btn btn--whatsapp"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   data-company-whatsapp
+                   aria-label="Contactar por WhatsApp">
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i> Escribir por WhatsApp
+                </a>
+            </div>
+
+            <!-- Formulario -->
+            <form class="contact__form" id="contact-form" novalidate aria-label="Formulario de contacto">
+                <div class="form__row">
+                    <div class="form__group">
+                        <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+                        <input type="text" id="nombre" name="nombre"
+                               placeholder="Su nombre completo"
+                               required autocomplete="name">
+                    </div>
+                    <div class="form__group">
+                        <label for="empresa">Empresa / Institución</label>
+                        <input type="text" id="empresa" name="empresa"
+                               placeholder="Nombre de su empresa"
+                               autocomplete="organization">
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__group">
+                        <label for="correo">Correo electrónico <span aria-hidden="true">*</span></label>
+                        <input type="email" id="correo" name="correo"
+                               placeholder="correo@empresa.com"
+                               required autocomplete="email">
+                    </div>
+                    <div class="form__group">
+                        <label for="telefono">Teléfono / WhatsApp</label>
+                        <input type="tel" id="telefono" name="telefono"
+                               placeholder="+51 999 999 999"
+                               autocomplete="tel">
+                    </div>
+                </div>
+                <div class="form__group">
+                    <label for="servicio">Servicio de interés</label>
+                    <select id="servicio" name="servicio">
+                        <option value="">Seleccione un servicio...</option>
+                        <option value="software">Desarrollo de software a medida</option>
+                        <option value="movil">Aplicación móvil Android / iOS</option>
+                        <option value="web">Sistema web empresarial</option>
+                        <option value="erp">Plataforma ERP</option>
+                        <option value="educativo">Sistema educativo</option>
+                        <option value="automatizacion">Automatización de procesos</option>
+                        <option value="infraestructura">Infraestructura y servidores</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form__group">
+                    <label for="mensaje">Mensaje <span aria-hidden="true">*</span></label>
+                    <textarea id="mensaje" name="mensaje" rows="5"
+                              placeholder="Cuéntenos sobre su proyecto o necesidad..."
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn--primary btn--full">
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i> Enviar solicitud
+                </button>
+
+                <div class="form__success" role="alert">
+                    <i class="fas fa-circle-check"></i>
+                    ¡Gracias! Hemos recibido su solicitud. Le contactaremos pronto.
+                </div>
+                <p class="form__note">* Campos obligatorios. Responderemos en menos de 24 horas hábiles.</p>
+            </form>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+    <div class="footer__main container">
+        <div class="footer__brand">
+            <a href="index.html" aria-label="INTIS — Inicio">
+                <img src="assets/logo.png" alt="INTIS" class="footer__logo">
+            </a>
+            <p class="footer__tagline">Innovación en Tecnologías de Información y Soluciones Empresariales</p>
+            <p class="footer__location"><i class="fas fa-location-dot" aria-hidden="true"></i> Cajamarca, Perú</p>
+        </div>
+
+        <div class="footer__col">
+            <h4>Navegación</h4>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#soluciones">Soluciones</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__col">
+            <h4>Servicios</h4>
+            <ul>
+                <li><a href="#servicios">Desarrollo de software</a></li>
+                <li><a href="#servicios">Apps móviles</a></li>
+                <li><a href="#servicios">Sistemas web</a></li>
+                <li><a href="#servicios">Plataformas ERP</a></li>
+                <li><a href="#servicios">Soluciones educativas</a></li>
+                <li><a href="#servicios">Infraestructura</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__col">
+            <h4>Legal y contacto</h4>
+            <ul>
+                <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                <li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+                <li><a href="mailto:contacto@intis.pe">contacto@intis.pe</a></li>
+                <li><a href="https://wa.me/51999999999" target="_blank" rel="noopener noreferrer">+51 999 999 999</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer__bottom container">
+        <p>&copy; <span id="copyright-year"></span> INTIS. Todos los derechos reservados.</p>
+        <nav class="footer__legal" aria-label="Navegación legal">
+            <a href="politica-privacidad.html">Política de Privacidad</a>
+            <span aria-hidden="true">·</span>
+            <a href="terminos-condiciones.html">Términos y Condiciones</a>
+        </nav>
+    </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="back-to-top" aria-label="Volver al inicio">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
