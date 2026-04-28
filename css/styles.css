@@ -339,6 +339,7 @@ input, textarea, select, button { font-family: var(--font); }
     max-width: 190px;
     max-height: 190px;
     object-fit: contain;
+    mix-blend-mode: screen;
 }
 .hero__card-float {
     position: absolute;
